@@ -1,0 +1,26 @@
+.search{
+  border: 1px solid black;  
+  height: 50px;
+  padding:15px;    
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input{
+  width: 200px;
+  margin: 5px;
+  height: 20px;  
+}
+
+.search button{
+  background-color: rgb(126, 126, 223);
+  width: 100px;
+  height: 25px;
+  position: relative;
+  align-self: center;
+  color: white;
+  font-weight: bold;  
+}
